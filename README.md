@@ -6,7 +6,7 @@
 
 ![Teaser image](./teaser.png)
 
-*These people are real &ndash; latent representation of them was found by using perceptual loss trick. Then this representations were moved along "smiling direction" and transformed back into images*
+*The generated image is not a real person; a latent representation of two Gme of Thrones characters was found by using perceptual loss trick. Then these representations were combined using the style mixing technique and transformed back into an image.*
 
 Short explanation of encoding approach:
 0) Original pre-trained StyleGAN generator is used for generating images
@@ -16,7 +16,7 @@ Short explanation of encoding approach:
 4) Upon completion of optimization you are able to transform your latent vector as you wish. For example you can find a "smiling direction" in your latent space, move your latent vector in this direction and transform it back to image using the generator. 
 
 **New scripts for finding your own directions will be realised soon. For now you can play with existing ones: smiling, age, gender.**
-**More examples you can find in the [Jupyter notebook](https://github.com/Puzer/stylegan/blob/master/Play_with_latent_directions.ipynb)**
+**More examples you can find in the [Jupyter notebook](https://github.com/iyaja/stylegan-encoder/blob/master/generate_GoT_characters_with_StyleGAN.ipynb)**
 
 ### Generating latent representation of your images
 You can generate latent representations of your own images using two scripts:
