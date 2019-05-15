@@ -6,7 +6,7 @@
 
 ![Teaser image](./teaser.png)
 
-*The generated image is not a real person; a latent representation of two Gme of Thrones characters was found by using perceptual loss trick. Then these representations were combined using the style mixing technique and transformed back into an image.*
+*The generated image is not a real person; a latent representation of two Game of Thrones characters was found by using perceptual loss trick. Then these representations were combined using the style mixing technique and transformed back into an image.*
 
 Short explanation of encoding approach:
 0) Original pre-trained StyleGAN generator is used for generating images
